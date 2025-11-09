@@ -28,7 +28,7 @@ st.info("Below is the sample graph used for BFS and DFS traversal demonstrations
 from pathlib import Path
 from PIL import ImageDraw, ImageFont
 
-script_dir = Path(_file_).parent
+script_dir = Path(__file__).parent
 candidates = [
     "LabReport_BSD2513_#1.jpg"
 ]
